@@ -1,0 +1,42 @@
+:root {
+    --blue: #4EA6E7;
+    --orange: #F58B57;
+    --sky:#736BE3
+  }
+  .services{
+    background-image: url(../../images/service/services-right-dec.jpg);
+    background-position: right;
+    background-size: cover;
+  }
+  section h5{
+      color: var(--blue);
+  }
+  section h1{
+    
+  }
+  section span{
+    color: var(--blue);
+  }
+  section hr{
+    background-color: var(--blue);
+    width: 15%;
+    padding: 2px;
+    
+  }
+  ul li{
+    list-style: none;
+    line-height: 35px;
+  }
+  ul {
+    padding: 0;
+  }
+  .h4{
+    color: var(--blue);
+  }
+  input{
+    outline: none;
+  }
+ button{
+ 
+   font-size: 23px;
+ }
