@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.js">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+
+    <title>bootstrap</title>
+
+</head>
+
+<body>
+    <style>
+        .header-h1 {
+            color: rgb(230, 29, 22);
+            font-weight: bold;
+            background-image: url(../img/);
+        }
+
+        .header-h1 span {
+            color: rgb(5, 5, 85);
+        }
+
+        .header i {
+            background-color: rgb(5, 5, 84);
+            border-radius: 50%;
+            padding: 8px;
+            color: #fff;
+        }
+
+
+
+
+
+
+
+
+        .navbar {
+            background-color: rgb(5, 5, 84);
+        }
+
+        .navbar li a:hover {
+            color: rgb(230, 29, 22);
+        }
+
+        /* hbhcblad;a */
+
+        .carousel-item img {
+            width: 100%;
+            height: 92vh;
+        }
+
+        .carousel-caption {
+            bottom: 10.25rem;
+        }
+
+        .carousel-caption h3 {
+            color: rgb(230, 29, 22);
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .carousel-caption h1 {
+            font-size: 60px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .carousel-control-prev-icon {
+            border-radius: 50%;
+            background-color: rgb(211, 236, 236);
+            padding: 20px;
+            transition: all 0.5s;
+        }
+
+        .carousel-control-prev-icon:hover {
+            background-color: brown;
+        }
+
+        .carousel-control-next-icon {
+            border-radius: 50%;
+            background-color: rgb(211, 236, 236);
+            padding: 20px;
+            transition: all 0.5s;
+        }
+
+        .carousel-control-next-icon:hover {
+            background-color: brown;
+        }
+
+        /* bsbbsjbs */
+
+        .car_washing img {
+            max-height: 450px;
+            width: 100%;
+            object-fit: cover
+        }
+
+        .car_washing_body h3 {
+            color: rgb(230, 29, 22);
+        }
+
+        .car_washing_body hr {
+            width: 80px;
+            height: 3px;
+            background-color: rgb(180, 25, 25);
+            margin: 0;
+        }
+
+        .car_washing_body ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .car_washing_body i {
+            margin-right: 5px;
+        }
+
+        /* bhjdbcjbcjakcbjcb */
+
+        .card-img-top {
+            width: 50%;
+        }
+
+        .card img {
+            object-fit: cover;
+        }
+
+        .contact-point {
+            background-color: rgb(5, 5, 84);
+            padding: 80px 0;
+        }
+
+        .contact-point-icon {
+            color: rgb(230, 29, 22);
+        }
+
+        .center_box h4 {
+            letter-spacing: 1px;
+        }
+
+        /* jkbbzbckjabkaj */
+
+        .cards-doler h1 {
+            position: relative;
+            font-size: 60px;
+            font-weight: bold;
+            color: rgb(5, 5, 84);
+        }
+
+        .cards-doler h1::before {
+            content: ".99";
+            position: absolute;
+            top: 10px;
+            left: 70px;
+            display: block;
+            font-size: 25px;
+            color: rgb(5, 5, 84);
+        }
+
+        .cards-doler h1::after {
+            content: "$";
+            position: absolute;
+            top: 8px;
+            left: -15px;
+            display: block;
+            font-size: 25px;
+            color: rgb(5, 5, 84);
+        }
+
+        .card-list ul li {
+            list-style: none;
+            line-height: 35px;
+            letter-spacing: 1px;
+        }
+
+        .btn {
+            border-radius: 35px;
+            transition: all 0.5s;
+            border: none;
+        }
+
+        .btn:hover {
+            background-color: rgb(5, 5, 84);
+        }
+
+        /* hsdasbdkjasdnaknajk */
+
+        .bext_cords {
+            overflow: hidden;
+        }
+
+        .bext_cords img {
+            transition: all 0.5s;
+        }
+
+        .bext_cords:hover>img {
+            transform: scale(1.1);
+        }
+
+        .bext_cords:hover>.buttom-div {
+            background-color: rgb(180, 25, 25);
+        }
+
+        .buttom-div {
+            position: relative;
+            background-color: rgb(5, 5, 84);
+            transition: all .5s;
+        }
+
+        .card-body-icons {
+            position: absolute;
+            width: 90%;
+            top: -20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card-body-icons i {
+            background-color: rgb(5, 5, 84);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 5px;
+            color: #fff;
+            font-size: 18px;
+            transition: all 0.5s;
+        }
+
+        .bext_cords:hover>.buttom-div>.card-body-icons i {
+            background-color: rgb(180, 25, 25);
+        }
+
+        /* ghkbchjcbksjc */
+
+        .card {
+            position: relative;
+        }
+
+        .jan {
+            width: 100px;
+            height: 100px;
+            /* background-color: rgb(180, 25, 25); */
+            background-color: rgb(5, 5, 84);
+            position: absolute;
+            margin-left: 40%;
+            border-radius: 50%;
+            opacity: 0;
+            transition: all 0.5s;
+        }
+
+        .card:hover>.jan {
+            transform: translateY(75px);
+            opacity: 1;
+        }
+
+
+
+
+        .jan p {
+            font-weight: bold;
+            letter-spacing: 1px;
+            font-size: 17px;
+            color: black;
+        }
+
+        .bottum-icons ul li {
+            list-style: none;
+            padding: 0 8px;
+            /* border-right: 1px solid black; */
+        }
+
+        .bottum-icons ul li i {
+            padding: 0 5px;
+        }
+
+        /* jhbjhabxkLKANl;zm;L */
+
+        .footer_icons {
+            display: flex;
+            max-width: 200px;
+            justify-content: space-between;
+        }
+
+        .footer ul li {
+            list-style: none;
+        }
+
+        .footer_icons i {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(5, 5, 84);
+            font-size: 18px;
+        }
+
+        .footer {
+            line-height: 40px;
+        }
+
+        .fotter_box {
+            background-color: rgb(5, 5, 20);
+            color: #fff;
+        }
+
+        .border-1 {
+            /* background-color: rgb(233, 233, 252); */
+            box-shadow: 2px 2px 5px rgb(23, 23, 223);
+            transform: scale(0.895);
+            transition: 0.5s;
+        }
+
+        .border-1:hover {
+            transform: scale(0.950);
+        }
+
+        /* bskjadbkad */
+
+        @media (max-width: 576px) {
+            .carousel-caption h3 {
+                color: rgb(230, 29, 22);
+                letter-spacing: 1px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .carousel-caption h1 {
+                font-size: 30px;
+                letter-spacing: 1px;
+                font-weight: bold;
+            }
+
+            .carousel-caption {
+                bottom: 6.25rem;
+            }
+
+            .contact-point {
+                padding: 40px 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .carousel-caption {
+                bottom: 8.25rem;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .header-h1 h1 {
+                font-size: 50px;
+            }
+
+            .carousel-caption h1 {
+                font-size: 37px;
+                letter-spacing: 1px;
+                font-weight: bold;
+            }
+        }
+    </style>
+
+    <div class="container-fluid py-4">
+        <div class="container px-0">
+            <div class="header">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-3 col-12 ">
+                        <div class="header-h1 text-capitalize">
+                            <h1 class="text-center">auto <span>wash</span></h1>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-none d-lg-block">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-2">
+                                <i class="fas fa-clock "></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="mb-0">opening hour</h4>
+                                <p class="mb-0">mon-fri-8:00-9:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-none d-lg-block">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-2">
+                                <i class="fas fa-phone-alt "></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="mb-0">call us</h4>
+                                <p class="mb-0">+7248241270</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 d-none d-lg-block">
+                        <div class="row d-flex align-items-center ">
+                            <div class="col-2">
+                                <i class="fas fa-envelope "></i>
+                            </div>
+                            <div class="col-10">
+                                <h4 class="mb-0">call us</h4>
+                                <p class="mb-0">+7248241270</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gdashvdjavdasjdvjdvasjh -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark  py-4">
+        <div class="container">
+            <a class="navbar-brand d-lg-none d-block" href="#">menu</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-secondary"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                    <li class="nav-item">
+                        <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">washing points</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog Gril</a></li>
+                            <li><a class="dropdown-item" href="#">Detail Page</a></li>
+                            <li><a class="dropdown-item" href="#">Teem Member</a></li>
+                            <li><a class="dropdown-item" href="#">Schedule Booking</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">contact</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-danger text-center">get appointmet</button>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- ahdhdbadbashdlad -->
+
+    <div class="container-fluid px-0">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/carousel-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption h-50">
+                        <h3>washing & detailing</h3>
+                        <h1>qoality service for you</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Voluptatibus beatae nulla
+                            autem explicabo doloremque labore!</p>
+                        <button type="button" class="btn btn-danger text-center">explore more</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="../img/carousel-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption h-50">
+                        <h3>washing & detailing</h3>
+                        <h1>qoality service for you</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Voluptatibus beatae nulla
+                            autem explicabo doloremque labore!</p>
+                        <button type="button" class="btn btn-danger text-center">explore more</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="../img/carousel-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption h-50">
+                        <h3>washing & detailing</h3>
+                        <h1>qoality service for you</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Voluptatibus beatae nulla
+                            autem explicabo doloremque labore!</p>
+                        <button type="button" class="btn btn-danger text-center">explore more</button>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- hjjshjasbhasbhaj -->
+    <div class="container my-5">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 car_washing p-0">
+                <img src="../img/about.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-lg-6 px-3">
+                <div class="car_washing_body py-4">
+                    <h3 class=" text-capitalize">about us</h3>
+                    <hr>
+                    <h1 class="my-2  text-capitalize">car washing and detailling</h1>
+                    <p>Lorem ipsum dolor sit amet elit. In vitae turpis. Donec in hendre dui, vel blandit massa. Ut
+                        vestibu suscipi cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit
+                        luctus dictum</p>
+                    <ul class=" text-capitalize">
+                        <li> <i class="far fa-check-circle  text-danger"></i>Seats washing</li>
+                        <li> <i class="far fa-check-circle  text-danger"></i>Vacuum cleaning </li>
+                        <li><i class="far fa-check-circle  text-danger"></i>Interior wet cleaning </li>
+                        <li><i class="far fa-check-circle  text-danger"></i>Window wiping</li>
+                    </ul>
+                    <button type="button" class="btn btn-danger text-center">explore more</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jndf;kfn;lfdslfm -->
+    <div class="container">
+        <section class="center_box text-center my-5">
+            <h4 class="text-danger ">WHAT WE DO?</h4>
+
+            <h1 class="my-1">Premium Washing Services</h1>
+        </section>
+        <div class="row my-4 g-4">
+            <div class="col-lg-3 col-md-4 col-sm-6 ">
+                <div class="card border-1 p-4 mx-auto " style="width: 18rem;">
+                    <img src="../img/car 1.png" class="card-img-top " alt="..." width="80" height="80">
+                    <div class="card-body py-4 px-0">
+                        <h4 class="text-danger">Exterior Washing</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-1 p-4 mx-auto " style="width: 18rem;">
+                    <img src="../img/car 2.png" class="card-img-top " alt="..." width="80" height="80">
+                    <div class="card-body py-4 px-0">
+                        <h4 class="text-danger">Interior Washing</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-1 p-4 mx-auto " style="width: 18rem;">
+                    <img src="../img/car 3.png" class="card-img-top " alt="..." width="80" height="80">
+                    <div class="card-body py-4 px-0">
+                        <h4 class="text-danger">Vacuum Cleaning</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-1 p-4 mx-auto " style="width: 18rem;">
+                    <img src="../img/car 4.png" class="card-img-top " alt="..." width="80" height="80">
+                    <div class="card-body py-4 px-0">
+                        <h4 class="text-danger">Seats Washing</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-1 p-4 mx-auto " style="width: 18rem;">
+                    <img src="../img/car 5.png" class="card-img-top " alt="..." width="80" height="80">
+                    <div class="card-body py-4 px-0">
+                        <h4 class="text-danger">Window Wiping</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-1 p-4 mx-auto " style="width: 18rem;">
+                    <img src="../img/car 6.jpg" class="card-img-top " alt="..." width="80" height="80">
+                    <div class="card-body py-4 px-0">
+                        <h4 class="text-danger">Wet Cleaning</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card border-1 p-4 mx-auto " style="width: 18rem;">
+                    <img src="../img/car 7.jpg" class="card-img-top " alt="..." width="80" height="80">
+                    <div class="card-body py-4 px-0">
+                        <h4 class="text-danger">Oil Changing</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 ">
+                <div class="card border-1 p-4 mx-auto " style="width: 18rem;">
+                    <img src="../img/car 8.jpg" class="card-img-top " alt="..." width="80" height="80">
+                    <div class="card-body py-4 px-0">
+                        <h4 class="text-danger">Brake Reparing</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- njnjkadak -->
+
+    <div class="container-fluid contact-point ">
+        <div class="container ">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <div class="row d-flex justify-content-between align-items-center ">
+                        <div class="col-3 contact-point-icon ">
+                            <i class="fas fa-map-marker fa-3x"></i>
+                        </div>
+                        <div class="col-9">
+                            <h1 class="position-relative text-light">25
+                                <span class="position-absolute  translate-middle badge ">
+                                    +
+
+                                </span>
+                            </h1>
+                            <p class="text-light">Service Points</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-3 contact-point-icon">
+                            <i class="far fa-user fa-3x"></i>
+                        </div>
+                        <div class="col-9">
+                            <h1 class="position-relative text-light">350
+                                <span class="position-absolute  translate-middle badge ">
+                                    +
+
+                                </span>
+                            </h1>
+                            <p class="text-light">Engineers & Workers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 ">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-3 contact-point-icon">
+                            <i class="fas fa-users fa-3x"></i>
+                        </div>
+                        <div class="col-9">
+                            <h1 class="position-relative text-light">1500
+                                <span class="position-absolute  translate-middle badge ">
+                                    +
+                                    <span class="visually-hidden"></span>
+                                </span>
+                            </h1>
+                            <p class="text-light">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6  ">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-3 contact-point-icon">
+                            <i class="fas fa-check fa-3x"></i>
+                        </div>
+                        <div class="col-9">
+                            <h1 class="position-relative text-light">5000
+                                <span class="position-absolute  translate-middle badge ">
+                                    +
+
+                                </span>
+                            </h1>
+                            <p class="text-light">Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- vchjbcjkbckjC -->
+    <div class="container mt-5">
+        <section class="center_box text-center my-5">
+            <h4 class="text-danger ">WASHING PLAN</h4>
+
+            <h1 class="my-1 text-capitalize">Choose Your Plan</h1>
+        </section>
+        <div class="row">
+            <div
+                class="card-list col-md-4 col-12 py-4 my-4 my-md-0 cards-doler d-flex flex-column justify-content-center align-items-center">
+                <h1>25</h1>
+                <ul class=" text-center p-0">
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Seats Washing</li>
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Vacuum Cleaning</li>
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Exterior Cleaning</li>
+                    <li><i class="far fa-times-circle px-1 text-danger"></i>Interior Wet Cleaning</li>
+                    <li><i class="far fa-times-circle px-1 text-danger"></i>Window Wiping</li>
+                </ul>
+                <button type="button" class="btn btn-danger text-center">explore more</button>
+            </div>
+            <div
+                class="card-list col-md-4 col-12 py-4 my-4 my-md-0 shadow cards-doler d-flex flex-column justify-content-center align-items-center">
+                <h1>35</h1>
+                <ul class=" text-center p-0">
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Seats Washing</li>
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Vacuum Cleaning</li>
+                    <li><i class="far fa-times-circle px-1 text-danger"></i>Exterior Cleaning</li>
+                    <li><i class="far fa-times-circle px-1 text-danger"></i>Interior Wet Cleaning</li>
+                    <li><i class="far fa-times-circle px-1 text-danger"></i>Window Wiping</li>
+
+                </ul>
+                <button type="button" class="btn btn-danger text-center">explore more</button>
+            </div>
+            <div
+                class="card-list col-md-4 py-4 col-12 my-4 my-md-0 cards-doler d-flex flex-column justify-content-center align-items-center">
+                <h1>49</h1>
+                <ul class=" text-center p-0">
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Seats Washing</li>
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Vacuum Cleaning</li>
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Exterior Cleaning</li>
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Interior Wet Cleaning</li>
+                    <li><i class="far fa-check-circle px-1 text-success"></i>Window Wiping</li>
+                </ul>
+                <button type="button" class="btn btn-danger text-center">explore more</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- jbjskjasbjasnkasjbaskbasjkbkasbasjk -->
+
+    <div class="container contact-margan my-md-5">
+        <div class="row ">
+            <div class="col-md-8 col-12 ">
+                <section class="center_box px-3 ">
+                    <h4 class="text-danger ">WASHING POINTS</h4>
+                    <h1 class=" text-capitalize mb-md-4">Car Washing & Care Points</h1>
+                </section>
+                <div class="row g-3 ">
+                    <div class="col-md-6 col-12">
+
+                        <div class="row">
+                            <div class="col-2 px-1 d-flex justify-content-end">
+                                <i class="fas fa-map-marker fa-2x  text-danger"></i>
+                            </div>
+
+                            <div class="col-10 px-0">
+                                <h4> Car Washing Point</h4>
+                                <p class="mb-1">123 Street, New York, USA</p>
+                                <p>Call:+012 345 6789</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 ">
+                        <div class="row">
+                            <div class="col-2 px-1 d-flex justify-content-end">
+                                <i class="fas fa-map-marker fa-2x text-danger"></i>
+                            </div>
+                            <div class="col-10 px-0">
+                                <h4> Car Washing Point</h4>
+                                <p class="mb-1">123 Street, New York, USA</p>
+                                <p>Call:+012 345 6789</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 ">
+                        <div class="row">
+                            <div class="col-2 px-1 d-flex justify-content-end">
+                                <i class="fas fa-map-marker fa-2x  text-danger"></i>
+                            </div>
+                            <div class="col-10 px-0">
+                                <h4> Car Washing Point</h4>
+                                <p class="mb-1">123 Street, New York, USA</p>
+                                <p>Call:+012 345 6789</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 ">
+                        <div class="row">
+                            <div class="col-2 px-1 d-flex justify-content-end">
+                                <i class="fas fa-map-marker fa-2x  text-danger"></i>
+                            </div>
+                            <div class="col-10 px-0">
+                                <h4> Car Washing Point</h4>
+                                <p class="mb-1">123 Street, New York, USA</p>
+                                <p>Call:+012 345 6789</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-12  ">
+
+                <div class="row">
+                    <div class="col-12 ">
+                        <h4 class="mb-md-4 text-capitalize text-danger">Request for a car wash</h4>
+                        <input type="text" name="" id="" placeholder="name"
+                            class="w-100 py-2 px-1  border-2  rounded-3">
+                        <input type="email" name="" id="" placeholder="email"
+                            class="w-100 border-2  py-2 px-1 my-3 rounded-3 ">
+                        <textarea name="" id="" cols="30" rows="3" class="w-100  py-2 px-1 rounded-3"></textarea>
+                        <button type="button" class="btn btn-danger text-center mt-2  text-capitalize py-2">send
+                            request</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- baahBAvALHSVakjsbjk -->
+    <div class="container">
+        <section class="center_box text-center my-5">
+            <h4 class="text-danger ">WHAT WE DO?</h4>
+
+            <h1 class="my-1">Premium Washing Services</h1>
+        </section>
+        <div class="row ">
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="card bext_cords mb-4 mb-sm-0">
+                    <img src="../img/team-1.jpg" class="card-img-top w-100" alt="...">
+                    <div class="card-body buttom-div">
+                        <h3 class=" text-center mt-4 text-light">Donald John</h3>
+                        <h5 class="card-title text-center text-light">Engineer</h5>
+                        <div class="card-body-icons">
+                            <i class="fab fa-facebook-f fa-1x"></i>
+                            <i class="fab fa-instagram fa-1x"></i>
+                            <i class="fab fa-twitter fa-1x"></i>
+                            <i class="fab fa-linkedin-in fa-1x"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="card bext_cords mb-4 mb-sm-0">
+                    <img src="../img/team-2.jpg" class="card-img-top w-100" alt="...">
+                    <div class="card-body buttom-div">
+                        <h3 class=" text-center mt-4 text-light">Donald John</h3>
+                        <h5 class="card-title text-center text-light">Engineer</h5>
+                        <div class="card-body-icons">
+                            <i class="fab fa-facebook-f fa-1x"></i>
+                            <i class="fab fa-instagram fa-1x"></i>
+                            <i class="fab fa-twitter fa-1x"></i>
+                            <i class="fab fa-linkedin-in fa-1x"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="card bext_cords mb-4 mb-sm-0">
+                    <img src="../img/team-3.jpg" class="card-img-top w-100" alt="...">
+                    <div class="card-body buttom-div">
+                        <h3 class=" text-center mt-4 text-light">Donald John</h3>
+                        <h5 class="card-title text-center text-light">Engineer</h5>
+                        <div class="card-body-icons">
+                            <i class="fab fa-facebook-f fa-1x"></i>
+                            <i class="fab fa-instagram fa-1x"></i>
+                            <i class="fab fa-twitter fa-1x"></i>
+                            <i class="fab fa-linkedin-in fa-1x"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="card bext_cords">
+                    <img src="../img/team-4.jpg" class="card-img-top w-100" alt="...">
+                    <div class="card-body buttom-div">
+                        <h3 class=" text-center mt-4 text-light">Donald John</h3>
+                        <h5 class="card-title text-center text-light">Engineer</h5>
+                        <div class="card-body-icons">
+                            <i class="fab fa-facebook-f fa-1x"></i>
+                            <i class="fab fa-instagram fa-1x"></i>
+                            <i class="fab fa-twitter fa-1x"></i>
+                            <i class="fab fa-linkedin-in fa-1x"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- bxsjhasbkasx -->
+    <div class="container my-5">
+        <section class="center_box text-center my-5">
+            <h4 class="text-danger ">WHAT WE DO?</h4>
+
+            <h1 class="my-1">Premium Washing Services</h1>
+        </section>
+        <div class="row ">
+            <div class="col-md-4 col-12 ">
+                <div class="card">
+                    <img src="../img/blog-1.jpg" class="card-img-top w-100" alt="...">
+                    <div class="jan p-0 d-flex flex-column justify-content-center align-items-center">
+                        <p class="m-0">01</p>
+                        <p class="m-0">jan</p>
+                        <p class="m-0">2045</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <div class="bottum-icons">
+                            <ul class="bottum-icons_ul d-flex m-0 p-0">
+                                <li> <i class="fas fa-user-plus"></i>admin</li>
+                                <li><i class="fas fa-folder"></i>web design</li>
+                                <li><i class="fas fa-comments"></i>15 comments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 ">
+                <div class="card">
+                    <img src="../img/blog-2.jpg" class="card-img-top w-100" alt="...">
+                    <div class="jan p-0 d-flex flex-column justify-content-center align-items-center">
+                        <p class="m-0">01</p>
+                        <p class="m-0">jan</p>
+                        <p class="m-0">2045</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <div class="bottum-icons">
+                            <ul class="bottum-icons_ul d-flex m-0 p-0">
+                                <li> <i class="fas fa-user-plus"></i>admin</li>
+                                <li><i class="fas fa-folder"></i>web design</li>
+                                <li><i class="fas fa-comments"></i>15 comments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 ">
+                <div class="card">
+
+                    <img src="../img/blog-3.jpg" class="card-img-top w-100" alt="...">
+                    <div class="jan p-0 d-flex flex-column justify-content-center align-items-center">
+                        <p class="m-0">01</p>
+                        <p class="m-0">jan</p>
+                        <p class="m-0">2045</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <div class="bottum-icons">
+                            <ul class="bottum-icons_ul d-flex m-0 p-0">
+                                <li> <i class="fas fa-user-plus"></i>admin</li>
+                                <li><i class="fas fa-folder"></i>web design</li>
+                                <li><i class="fas fa-comments"></i>15 comments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- nclksnckjc kJcnla -->
+    <div class="container-fluid fotter_box p-5 ">
+        <div class="row ">
+            <div class=" footer col-lg-3 col-md-6 col-12 d-flex flex-column justify-content-around mb-md-0 mb-4">
+                <h3 class="px-2 text-danger mb-3">Get In Touch</h3>
+                <h5><i class="fas fa-map-marker-alt px-2"></i>123 Street, New York, USA</h5>
+                <h5><i class="fas fa-phone-alt px-2"></i>+012 345 67890</h5>
+                <h5><i class="fas fa-envelope px-2"></i>info@domain.com</h5>
+                <div class="footer_icons">
+                    <i class="fab fa-facebook-f fa-1x"></i>
+                    <i class="fab fa-instagram fa-1x"></i>
+                    <i class="fab fa-twitter fa-1x"></i>
+                    <i class="fab fa-linkedin-in fa-1x"></i>
+                </div>
+            </div>
+            <div class=" footer col-lg-3 col-md-6 col-12  mb-md-0 mb-4">
+                <h3 class=" text-danger mb-4">Popular Links</h3>
+                <ul class="p-0 ">
+
+                    <li><i class="fas fa-angle-right px-2"></i>about'us</li>
+                    <li><i class="fas fa-angle-right px-2"></i>contact'us</li>
+                    <li><i class="fas fa-angle-right px-2"></i>our service</li>
+                    <li><i class="fas fa-angle-right px-2"></i>service point</li>
+                    <li><i class="fas fa-angle-right px-2"></i>pricing plan</li>
+                </ul>
+            </div>
+            <div class=" footer col-lg-3 col-md-6 col-12  mb-md-0 mb-4">
+                <h3 class=" text-danger mb-4">Useful Links</h3>
+                <ul class="p-0 ">
+
+                    <li><i class="fas fa-angle-right px-2"></i>terms</li>
+                    <li><i class="fas fa-angle-right px-2"></i>privacy policy</li>
+                    <li><i class="fas fa-angle-right px-2"></i>cookirs</li>
+                    <li><i class="fas fa-angle-right px-2"></i>hep</li>
+                    <li><i class="fas fa-angle-right px-2"></i>faqd</li>
+                </ul>
+            </div>
+            <div class=" footer col-lg-3 col-md-6 col-12  mb-md-0 mb-4">
+                <h3 class=" text-danger mb-4">Useful Links</h3>
+                <input type="text" name="" id="" placeholder="full name" class="w-100 py-2 px-1  border-2  rounded-3">
+                <input type="email" name="" id="" placeholder="email"
+                    class="w-100 border-2  py-2 px-1 my-3  rounded-3 ">
+                <button type="button" class="btn btn-danger text-center   text-capitalize ">submit</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

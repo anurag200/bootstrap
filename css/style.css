@@ -1,0 +1,363 @@
+/* .container {
+    border: 1px solid black;
+}
+
+.row {
+    border: 2px solid maroon;
+} */
+
+.header-h1 {
+    color: rgb(230, 29, 22);
+    font-weight: bold;
+    background-image: url(../img/);
+}
+
+.header-h1 span {
+    color: rgb(5, 5, 85);
+}
+
+.header i {
+    background-color: rgb(5, 5, 84);
+    border-radius: 50%;
+    padding: 8px;
+    color: #fff;
+}
+
+.navbar {
+    background-color: rgb(5, 5, 84);
+}
+
+.navbar li a:hover {
+    color: rgb(230, 29, 22);
+}
+
+
+/* hbhcblad;a */
+
+.carousel-item img {
+    width: 100%;
+    height: 92vh;
+}
+
+.carousel-caption {
+    bottom: 10.25rem;
+}
+
+.carousel-caption h3 {
+    color: rgb(230, 29, 22);
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.carousel-caption h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon {
+    border-radius: 50%;
+    background-color: rgb(211, 236, 236);
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+.carousel-control-prev-icon:hover {
+    background-color: brown;
+}
+
+.carousel-control-next-icon {
+    border-radius: 50%;
+    background-color: rgb(211, 236, 236);
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+.carousel-control-next-icon:hover {
+    background-color: brown;
+}
+
+
+/* bsbbsjbs */
+
+.car_washing img {
+    max-height: 450px;
+    width: 100%;
+    object-fit: cover
+}
+
+.car_washing_body h3 {
+    color: rgb(230, 29, 22);
+}
+
+.car_washing_body hr {
+    width: 80px;
+    height: 3px;
+    background-color: rgb(180, 25, 25);
+    margin: 0;
+}
+
+.car_washing_body ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.car_washing_body i {
+    margin-right: 5px;
+}
+
+
+/* bhjdbcjbcjakcbjcb */
+
+.card-img-top {
+    width: 50%;
+}
+
+.card img {
+    object-fit: cover;
+}
+
+.contact-point {
+    background-color: rgb(5, 5, 84);
+    padding: 80px 0;
+}
+
+.contact-point-icon {
+    color: rgb(230, 29, 22);
+}
+
+.center_box h4 {
+    letter-spacing: 1px;
+}
+
+
+/* jkbbzbckjabkaj */
+
+.cards-doler h1 {
+    position: relative;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(5, 5, 84);
+}
+
+.cards-doler h1::before {
+    content: ".99";
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    display: block;
+    font-size: 25px;
+    color: rgb(5, 5, 84);
+}
+
+.cards-doler h1::after {
+    content: "$";
+    position: absolute;
+    top: 8px;
+    left: -15px;
+    display: block;
+    font-size: 25px;
+    color: rgb(5, 5, 84);
+}
+
+.card-list ul li {
+    list-style: none;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.btn {
+    border-radius: 35px;
+    transition: all 0.5s;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(5, 5, 84);
+}
+
+
+/* hsdasbdkjasdnaknajk */
+
+.bext_cords {
+    overflow: hidden;
+}
+
+.bext_cords img {
+    transition: all 0.5s;
+}
+
+.bext_cords:hover>img {
+    transform: scale(1.1);
+}
+
+.bext_cords:hover>.buttom-div {
+    background-color: rgb(180, 25, 25);
+}
+
+.buttom-div {
+    position: relative;
+    background-color: rgb(5, 5, 84);
+    transition: all .5s;
+}
+
+.card-body-icons {
+    position: absolute;
+    width: 90%;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body-icons i {
+    background-color: rgb(5, 5, 84);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.bext_cords:hover>.buttom-div>.card-body-icons i {
+    background-color: rgb(180, 25, 25);
+}
+
+
+/* ghkbchjcbksjc */
+
+.card {
+    position: relative;
+}
+
+.jan {
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(180, 25, 25); */
+    background-color: rgb(5, 5, 84);
+    position: absolute;
+    margin-left: 40%;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.card:hover>.jan {
+    transform: translateY(75px);
+    opacity: 1;
+}
+
+.jan p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: black;
+}
+
+.bottum-icons ul li {
+    list-style: none;
+    padding: 0 8px;
+    /* border-right: 1px solid black; */
+}
+
+.bottum-icons ul li i {
+    padding: 0 5px;
+}
+
+
+/* jhbjhabxkLKANl;zm;L */
+
+.footer_icons {
+    display: flex;
+    max-width: 200px;
+    justify-content: space-between;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer_icons i {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 5, 84);
+    font-size: 18px;
+}
+
+.footer {
+    line-height: 40px;
+}
+
+.fotter_box {
+    background-color: rgb(5, 5, 20);
+    color: #fff;
+}
+
+.border-1 {
+    /* background-color: rgb(233, 233, 252); */
+    box-shadow: 2px 2px 5px rgb(23, 23, 223);
+    transform: scale(0.895);
+    transition: 0.5s;
+}
+
+.border-1:hover {
+    transform: scale(0.950);
+}
+
+
+/* bskjadbkad */
+
+@media (max-width: 576px) {
+    .carousel-caption h3 {
+        color: rgb(230, 29, 22);
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .carousel-caption h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .carousel-caption {
+        bottom: 6.25rem;
+    }
+    .contact-point {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 8.25rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-h1 h1 {
+        font-size: 50px;
+    }
+    .carousel-caption h1 {
+        font-size: 37px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 1200px) {
+    ...
+}
+
+@media (min-width: 1400px) {
+    ...
+}
